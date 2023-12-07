@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+navbar{
+    background-color: white;
+    
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main img{
+    background-size: cover;
+}
+.carousel h1{
+    font-size: 4rem;
+    font-weight: 700;
+    align-items: center;
+}
+.carousel h6{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgba(120, 97, 219, 0.664);
+    width: 60%;
+    align-items: center;
+} 
+.progress{
+    background-color: rgba(225, 211, 231, 0.863);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: rgb(215, 175, 248);
+    height: 38px;
+    width: 0;
+}
+.progress p{
+    color: black;
+    padding: 12px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.fila{
+    background-color: rgb(245, 241, 241);
+    color: rgb(8, 8, 8);
+    display: flex;
+}
+.fila {
+    margin: auto;
+    margin-top: 20px;
+}
+.fila h3{
+    font-size: 40px;
+    font-family: 'righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.fila ul{
+    list-style: none;
+}
+.fila ul li{
+    margin: 10px 0;
+}
+.fila ul li strong{
+    display: inline-block;
+    color:rgb(95, 134, 134);
+    width: 105px;
+}
+.fila ul li span{
+    background-color: rgb(166, 198, 198);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.interes{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(120, 113, 113);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.interes:hover{
+    background-color: rgb(48, 53, 53);
+    display: flex;
+}
+.interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.circle:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+footer{
+    font-family: cursive;
+}
+
